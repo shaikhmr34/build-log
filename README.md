@@ -1,8 +1,8 @@
-# ?? Hey, I'm Rehan
+# 👋 Hey, I'm Rehan
 
 I write about the small projects I build and what I actually learn while building them, bugs, dead ends, and all.
 
-## ?? Read the blog
+## 📖 Read the blog
 
 **[Click here to check out my latest posts ?](https://shaikhmr34.github.io)**
 
