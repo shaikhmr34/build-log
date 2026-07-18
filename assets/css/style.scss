@@ -1,0 +1,117 @@
+---
+---
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@import "minima";
+
+:root {
+  --bg: #0c0a13;
+  --bg-card: #15111f;
+  --border: #2a2438;
+  --text: #ece9f5;
+  --text-muted: #948da8;
+  --grad-1: #7c5cff;
+  --grad-2: #4f8cff;
+}
+
+html, body {
+  background: var(--bg);
+  color: var(--text);
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+a, a:visited {
+  color: var(--grad-2);
+}
+
+.site-header {
+  border-top: none;
+  border-bottom: 1px solid var(--border);
+  background: var(--bg);
+}
+
+.site-title, .site-title:visited {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 600;
+  color: var(--text) !important;
+}
+
+.site-nav .page-link {
+  color: var(--text-muted);
+  font-weight: 500;
+}
+.site-nav .page-link:hover {
+  color: var(--text);
+}
+
+.page-heading, .post-list-heading {
+  font-family: 'Space Grotesk', sans-serif;
+  color: var(--text);
+}
+
+.post-list {
+  margin-left: 0;
+  list-style: none;
+}
+
+.post-list > li {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 20px 24px;
+  margin-bottom: 16px;
+  transition: border-color .18s ease, transform .18s ease;
+}
+.post-list > li:hover {
+  border-color: var(--grad-2);
+  transform: translateY(-2px);
+}
+
+.post-meta {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  color: var(--grad-2);
+}
+
+.post-link {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.rss-subscribe {
+  color: var(--text-muted);
+}
+
+.home > p {
+  color: var(--text-muted);
+}
+
+.page-content, .post-content {
+  color: var(--text);
+}
+.post-content a {
+  color: var(--grad-2);
+}
+
+.post-title {
+  font-family: 'Space Grotesk', sans-serif;
+  color: var(--text);
+}
+
+.site-footer {
+  border-top: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--text-muted);
+}
+
+.footer-heading {
+  color: var(--text);
+}
+
+.footer-col a {
+  color: var(--text-muted);
+}
